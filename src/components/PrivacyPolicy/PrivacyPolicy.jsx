@@ -129,8 +129,8 @@ const PrivacyPolicy = () => {
           <section id="section-5" className={styles.section}>
             <h2>5. التبليغ عن محتوى أو إساءة</h2>
             <p>نحن نأخذ بلاغات المستخدمين بجدية. إذا واجهت محتوى غير مناسب أو أي إساءة داخل التطبيق، يمكنك التواصل معنا مباشرة عبر البريد التالي:</p>
-            <a href="mailto:ahmad.lasin.dev@gmail.com" className={styles.emailLink}>
-              ahmad.lasin.dev@gmail.com
+            <a href="mailto:ahmadyassinq@gmail.com" className={styles.emailLink}>
+              ahmadyassinq@gmail.com
             </a>
             <p>يرجى تزويدنا بالتفاصيل الكافية لنتمكن من معالجة البلاغ بسرعة وكفاءة.</p>
           </section>
@@ -147,8 +147,8 @@ const PrivacyPolicy = () => {
           <section id="section-7" className={styles.section}>
             <h2>7. التواصل معنا</h2>
             <p>للاستفسارات أو الملاحظات حول سياسة الخصوصية، يمكنك التواصل معنا عبر:</p>
-            <a href="mailto:ahmad.lasin.dev@gmail.com" className={styles.emailLink}>
-              البريد الإلكتروني: ahmad.lasin.dev@gmail.com
+            <a href="mailto:ahmadyassinq@gmail.com" className={styles.emailLink}>
+              البريد الإلكتروني: ahmadyassinq@gmail.com
             </a>
           </section>
         );
@@ -160,7 +160,7 @@ const PrivacyPolicy = () => {
   return (
     <div className={styles.container} dir="rtl">
       <header className={styles.header}>
-        <h1>سياسة الخصوصية لتطبيق "مهارات جذب النساء الجميلة"</h1>
+        <h1>سياسة الخصوصية لتطبيق "مهارات جذب النساء الجميلات"</h1>
         <p className={styles.updateDate}>آخر تحديث: 21 مايو 2025</p>
       </header>
 
@@ -190,7 +190,7 @@ const PrivacyPolicy = () => {
 
       <button 
         className={`${styles.contactButton} ${styles.floating}`}
-        onClick={() => window.location.href = 'mailto:ahmad.lasin.dev@gmail.com'}
+        onClick={() => window.location.href = 'mailto:ahmadyassinq@gmail.com'}
         aria-label="تواصل معنا"
       >
         <FaEnvelope /> تواصل معنا
